@@ -119,9 +119,9 @@ public class Pantalla extends javax.swing.JFrame {
        String pass = input_password.getText();
        
        if (user.equalsIgnoreCase("alumno@ulp.edu.ar") && (pass.equalsIgnoreCase("12345678"))){
-        JOptionPane.showMessageDialog(this, "Welcome to the league of legends");
+        JOptionPane.showMessageDialog(this, "Bienvenido al sistema usuario!");
        } else {
-           JOptionPane.showMessageDialog(this, "Your not welcome to the system");
+           JOptionPane.showMessageDialog(this, "Usuario o correo incorrectos.");
        }
     }//GEN-LAST:event_btn_registerActionPerformed
 
